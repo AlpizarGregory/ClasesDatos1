@@ -15,8 +15,13 @@ public class Persona {
         this.edad = edad;
     }
 
+    // La notación de Override es opcional, son solo para métodos
     @Override // Para que se ignore el método toString de "Object" y utilice uno definido por la persona
     public String toString(){
         return this.nombre + ": " + this.edad + ": " + pais;
+    }
+
+    public void hablar(){
+
     }
 }
