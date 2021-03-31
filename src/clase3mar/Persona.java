@@ -8,7 +8,7 @@ public class Persona {
     String nombre;
     int edad;
 
-    Persona(String nombre, int edad){
+    public Persona(String nombre, int edad){
         // Los this.xxxxx equivale al "self" de Python (Se refiere a él mismo)
         // No es obligatorio poner siempre el this, pero es muy útil
         this.nombre = nombre;
@@ -24,4 +24,5 @@ public class Persona {
     public void hablar(){
 
     }
+
 }
