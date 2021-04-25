@@ -1,5 +1,3 @@
-package clase3mar;
-
 public class Main {
     public static void main(String[] args) {
         //Cada uno de estos objetos hereda de la clase "Object"

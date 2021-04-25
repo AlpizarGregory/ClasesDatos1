@@ -1,5 +1,3 @@
-package clase3mar;
-
 public class Persona {
     static String pais = "Costa Rica"; // Es una variable de clase, no de instancia
 

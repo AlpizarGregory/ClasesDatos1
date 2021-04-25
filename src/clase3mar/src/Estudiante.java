@@ -1,5 +1,3 @@
-package clase3mar;
-
 public class Estudiante extends Persona { //extends se utiliza para heredar
     String carne;
 
@@ -13,3 +11,4 @@ public class Estudiante extends Persona { //extends se utiliza para heredar
         return super.toString() + ": " + this.carne;
     }
 }
+
