@@ -1,6 +1,6 @@
-package clase17mar.abstracts.ui.windows;
+package abstracts.ui.windows;
 
-import clase17mar.abstracts.product.Label;
+import abstracts.product.Label;
 
 public class WindowsLabel implements Label {
     @Override

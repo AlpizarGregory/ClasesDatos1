@@ -1,6 +1,6 @@
-package clase17mar.abstracts.ui.mac;
+package abstracts.ui.mac;
 
-import clase17mar.abstracts.product.Label;
+import abstracts.product.Label;
 
 public class MacLabel implements Label {
     @Override

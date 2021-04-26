@@ -1,6 +1,6 @@
-package clase17mar.abstracts.ui.mac;
+package abstracts.ui.mac;
 
-import clase17mar.abstracts.product.Button;
+import abstracts.product.Button;
 
 public class MacButton implements Button {
     @Override

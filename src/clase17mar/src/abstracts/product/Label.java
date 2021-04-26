@@ -1,4 +1,4 @@
-package clase17mar.abstracts.product;
+package abstracts.product;
 
 public interface Label {
     void setText(String text);
