@@ -1,6 +1,6 @@
-package clase19feb.tutorial;
+package tutorial;
 
-import clase19feb.UI.Interfaz;
+import UI.Interfaz;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package clase19feb.tutorial;
+package tutorial;
 
 public class Calculos {
     public static void algoImportante() { //public static String algoImportante
