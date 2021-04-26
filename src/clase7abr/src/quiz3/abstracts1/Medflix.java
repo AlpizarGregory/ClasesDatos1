@@ -1,4 +1,4 @@
-package clase7abr.quiz3.abstracts1;
+package quiz3.abstracts1;
 // Medflix es una nueva plataforma para ver shows de Stand Up Comedy
 
 public class Medflix {
@@ -10,19 +10,19 @@ public class Medflix {
 
         nuevoUsuario usuario;
 
-        if (sexo == "Masculino") {
-            if (edad < 18) {
-                usuario = new Niño();
-            } else {
-                usuario = new Hombre();
-            }
-        } else if (sexo == "Femenino") {
-            if (edad < 18) {
-                usuario = new Niña();
-            } else {
-                usuario = new Mujer();
-            }
-        }
-
+//        if (sexo == "Masculino") {
+//            if (edad < 18) {
+//                usuario = new Niño();
+//            } else {
+//                usuario = new Hombre();
+//            }
+//        } else if (sexo == "Femenino") {
+//            if (edad < 18) {
+//                usuario = new Niña();
+//            } else {
+//                usuario = new Mujer();
+//            }
+//        }
+//
     }
 }
