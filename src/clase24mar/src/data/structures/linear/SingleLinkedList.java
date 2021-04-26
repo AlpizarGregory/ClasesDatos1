@@ -1,5 +1,5 @@
-package clase24mar.data.structures.linear;
-// La carpeta test es parte de este ejemplo
+package data.structures.linear;
+// La carpeta test es parte de este ejemplo (desarrollo dirigido por pruebas)
 
 public class SingleLinkedList {
     private Node first = null;
@@ -69,7 +69,7 @@ public class SingleLinkedList {
         Node temp = this.first;
         while (temp != null) {
             if (!builder.isEmpty()) {
-                 builder.append(", ");
+                builder.append(", ");
             }
             builder.append(temp.data);
             temp = temp.next;

@@ -1,6 +1,6 @@
-package clase24mar.data.structures.linear.test;
+package data.structures.linear.test;
 
-import clase24mar.data.structures.linear.SingleLinkedList;
+import data.structures.linear.SingleLinkedList;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -60,3 +60,4 @@ public class SingleLinkedListTest {
         list.addAt(1,10);
     }
 }
+
