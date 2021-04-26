@@ -1,6 +1,3 @@
-package clase10mar;
-
-
 public class Estudiante extends Persona {
     String carne;
 

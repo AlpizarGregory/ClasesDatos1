@@ -1,4 +1,3 @@
-package clase10mar;
 // La interfaz no tiene cuerpo, no se puede utilizar por sí sola
 // NO ES POSIBLE instanciar una interfaz
 

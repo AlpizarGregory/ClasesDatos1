@@ -1,5 +1,3 @@
-package clase10mar;
-
                     //extends
 public class Persona implements Identificable{
     String cedula;
