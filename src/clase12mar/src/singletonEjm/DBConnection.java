@@ -1,4 +1,4 @@
-package clase12mar.singletonEjm;
+package singletonEjm;
 
 public class DBConnection {
     // Se debe tener una instancia estática

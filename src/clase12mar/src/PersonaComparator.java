@@ -1,5 +1,3 @@
-package clase12mar;
-
 import java.util.Comparator;
 
 public class PersonaComparator implements Comparator<Persona> { // Comparator es una interfaz

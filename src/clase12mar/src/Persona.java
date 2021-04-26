@@ -1,5 +1,3 @@
-package clase12mar;
-
 import java.util.Date;
 
 public class Persona { //implements Comparable<Persona>

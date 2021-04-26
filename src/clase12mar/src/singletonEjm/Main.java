@@ -1,4 +1,4 @@
-package clase12mar.singletonEjm;
+package singletonEjm;
 
 public class Main {
     private static void count(int sleepTime) throws InterruptedException {
