@@ -1,10 +1,10 @@
-package clase19mar.data.structures.linear;
+package data.structures.linear;
 
 public class SingleLinkedList {
     private Node first = null;
 
     public void addFirst(int e) {
-                     //Condición     Verdadero      Falso
+        //Condición     Verdadero      Falso
         // this.first = this.isEmpty() ? new Node(e) : new Node(e, this.first);
         if (this.isEmpty()) {
             this.first = new Node(e);

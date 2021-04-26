@@ -1,8 +1,4 @@
-package clase19mar.arrays;
-
-import clase19mar.observer.EmailSender;
-import clase19mar.observer.MonitorTipoCambio;
-import clase19mar.observer.SMSSender;
+package arrays;
 
 public class Main {
     public static void main(String[] args) {

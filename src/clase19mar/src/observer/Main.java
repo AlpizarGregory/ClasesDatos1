@@ -1,10 +1,10 @@
-package clase19mar.observer;
+package observer;
 
 public class Main {
     public static void main(String[] args) {
         var monitorTc = new MonitorTipoCambio();
-        monitorTc.addObserver(new EmailSender());
-        monitorTc.addObserver(new SMSSender());
+        monitorTc.addObserver((Observer) new EmailSender());
+        monitorTc.addObserver((Observer) new SMSSender());
         monitorTc.run();
     }
 }

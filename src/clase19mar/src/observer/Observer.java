@@ -1,4 +1,4 @@
-package clase19mar.observer;
+package observer;
 
 public interface Observer {
     void notify(TipoCambio tipoCambio);

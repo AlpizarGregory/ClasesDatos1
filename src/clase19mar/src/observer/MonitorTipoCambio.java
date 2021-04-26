@@ -1,4 +1,4 @@
-package clase19mar.observer;
+package observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,3 +44,4 @@ public class MonitorTipoCambio implements Runnable{
         this.observers.add(o);
     }
 }
+

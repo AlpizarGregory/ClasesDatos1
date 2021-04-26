@@ -1,4 +1,4 @@
-package clase19mar.observer;
+package observer;
 
 public class TipoCambio {
     private double tipoCambio;
@@ -10,4 +10,5 @@ public class TipoCambio {
     public void setTipoCambio(double tipoCambio) {
         this.tipoCambio = tipoCambio;
     }
+
 }
