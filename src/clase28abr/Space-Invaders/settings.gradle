@@ -1,0 +1,4 @@
+rootProject.name = 'Space-Invaders'
+include = 'Server'
+include = 'Cliente'
+include = 'Core'
