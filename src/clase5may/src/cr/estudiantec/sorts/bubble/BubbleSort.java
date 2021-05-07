@@ -11,6 +11,18 @@ public class BubbleSort {
         printValues(values);
     }
 
+    public int[] start(int[] values) {
+        if (values == null) {
+            throw new IllegalArgumentException("Insert a non null array");
+        }
+        System.out.println("Selection sort");
+
+
+        bubbleSort(values);
+
+        return values;
+    }
+
     private static void printValues(int[] values) {
         int lastElement = values.length - 1;
         System.out.print("[");

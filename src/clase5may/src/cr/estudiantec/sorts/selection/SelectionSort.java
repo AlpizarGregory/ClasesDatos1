@@ -2,16 +2,32 @@ package cr.estudiantec.sorts.selection;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] values = {23, 25, 86, 1, 12};
+//        int[] values = {23, 25, 86, 1, 12};
 
-        System.out.println("Selection sort");
-        printValues(values);
+//        System.out.println("Selection sort");
+//        printValues(values);
 
-        selectSort(values);
-        printValues(values);
+//        selectSort(values);
+//        printValues(values);
     }
 
-    private static void printValues(int[] values) {
+    public SelectionSort() {
+
+    }
+
+    public int[] start(int[] values) {
+        if (values == null) {
+            throw new IllegalArgumentException("Insert a non null array");
+        }
+        System.out.println("Selection sort");
+//        printValues(values);
+
+        selectSort(values);
+//        printValues(values);
+        return values;
+    }
+
+    public static void printValues(int[] values) {
         int lastElement = values.length - 1;
         System.out.print("[");
         for (int i=0; i < lastElement; i++) {
@@ -20,12 +36,12 @@ public class SelectionSort {
         System.out.print(values[lastElement] + "]\n");
     }
 
-    private static void selectSort(int[] values) {
+    public static void selectSort(int[] values) {
         int endIndex = values.length - 1;
         for (int current = 0; current < endIndex + 1; current++) {
             swap(current, minIndex(current, endIndex, values), values);
-            System.out.println(current);
-            printValues(values);
+//            System.out.println(current);
+//            printValues(values);
         }
     }
 
